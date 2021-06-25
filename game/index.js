@@ -32,7 +32,7 @@ var defaults = {
   materials: ['#fff', '#000'],
   materialFlatColor: true,
   worldOrigin: [0, 0, 0],
-  playerSkin:'man.png',
+  playerSkin:'man.json',
   controls: { discreteFire: true }
 }
 var opts = extend({}, defaults, opts || {})
